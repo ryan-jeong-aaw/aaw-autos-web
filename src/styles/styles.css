@@ -2,3 +2,86 @@ body {
   background-color: #231F20;
   color: #ffffff;
 }
+
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-horizontal-align {
+  flex-direction: row;
+}
+
+.flex-vertical-align {
+  flex-direction: column;
+}
+
+.full-page {
+  height: 100vh;
+}
+
+.padding-vertical-24 {
+  padding: 24px 0;
+}
+
+.padding-horizontal-18 {
+  padding: 0 18px;
+}
+
+.button-book-now {
+  font-size: 20px;
+}
+
+button {
+  cursor: pointer;
+  outline: none;
+}
+
+.outline {
+  position: relative;
+  z-index: 3;
+  background: transparent;
+  color: #1172c4;
+  font-size: 14px;
+  border-color: white;
+  border-style: solid;
+  border-width: 2px;
+  padding: 10px 24px;
+  text-transform: uppercase;
+  transition: all 0.1s ease-out;
+}
+
+.outline a {
+  text-decoration: none;
+}
+
+.outline:hover {
+  color: white;
+  border-color: white;
+  transition: all 0.1s ease-out;
+}
+
+.yellow-white {
+  font-weight: 700;
+  color: #dfbd24;
+  border-color: #dfbd24;
+  background: transparent;
+}
+
+.yellow-white:hover {
+  color: white;
+  background: #dfbd24;
+  border-color: #dfbd24;
+}
+
+.book-now-button-text {
+  line-height: 24px;
+  vertical-align: top;
+  padding-left: 8px;
+}
+
+.book-now-button-content {
+  position: relative;
+  top: 2px;
+}
